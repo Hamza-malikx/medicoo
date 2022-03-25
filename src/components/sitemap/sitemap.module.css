@@ -1,0 +1,50 @@
+.sitemapInnerWrapper {
+  padding: 30px 0;
+  font-family: "Nexa", sans-serif;
+}
+.sitemapInnerWrapper h2 {
+  font-size: 28px;
+  font-weight: 700;
+  /* text-align: center;
+  text-decoration: underline; */
+  color: #16374b;
+  margin: 0 0 25px;
+}
+.sitemapInnerWrapper h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #16374b;
+  margin: 0 0 15px;
+}
+.productsUl {
+  list-style: none;
+}
+.products {
+  margin: 0 0 15px;
+  position: relative;
+}
+
+.products:after {
+  content: "\f101";
+  top: 5px;
+  font-family: FontAwesome;
+  position: absolute;
+  left: -20px;
+  top: -4px;
+  color: black;
+}
+@media screen and (max-width: 767px) {
+  .sitemapInnerWrapper {
+    padding: 30px 17px;
+  }
+  .sitemapInnerWrapper h2 {
+    font-size: 24px;
+    margin: 0 0 5px;
+  }
+  .sitemapInnerWrapper h3 {
+    font-size: 20px;
+  }
+  .sitemapInnerWrapper:last-child h3 {
+    margin: 20px 0 15px;
+  }
+}

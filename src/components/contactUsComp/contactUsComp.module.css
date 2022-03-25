@@ -1,0 +1,79 @@
+.contactUsInnerWrapper {
+  font-family: "Nexa", sans-serif;
+}
+.contactUsInnerWrapper h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #16374b;
+  margin: 55px 0 15px;
+  text-align: center;
+}
+.contactUsContent {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.addressWrapper {
+  text-align: center;
+  padding: 40px 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px dashed;
+}
+.addressWrapper:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+.addressWrapper i {
+  font-size: 30px;
+  color: #16374b;
+}
+.addressWrapper p {
+  font-size: 16px;
+  margin-top: 25px;
+  color: #16374b;
+  font-family: "Nexa", sans-serif;
+}
+.contactForm {
+  background: #f6f6f6;
+  padding: 40px 30px 70px;
+  margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 7px;
+}
+.formWrapper {
+  margin-bottom: 15px;
+}
+.formWrapper label {
+  margin-bottom: 5px;
+}
+.msgWrapper label {
+  margin-bottom: 5px;
+}
+.messageTA {
+  height: 202px;
+}
+.submitBtn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #16374b;
+  color: #fff;
+  border: 1px solid #16374b;
+}
+
+.alertMessage {
+  background: #000000;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .contactUs {
+    padding: 15px;
+  }
+}

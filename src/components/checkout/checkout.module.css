@@ -1,0 +1,76 @@
+.checkout {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.checkoutHeader {
+  font-weight: 700;
+  margin: 25px 0 5px;
+  border-bottom: 3px solid rgb(131, 185, 58);
+  padding: 0 0 25px;
+}
+.checkoutHeader span {
+  font-size: 20px;
+  color: #fff;
+  background: rgb(131, 185, 58);
+  padding: 8px 15px 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.shippingForm {
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.formHeading {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /* border-bottom: 2px solid rgb(131, 185, 58); */
+  /* background-color: rgb(224, 224, 224); */
+  padding: 10px;
+  color: rgb(131, 185, 58);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  border: 2px solid rgb(131, 185, 58);
+  text-align: center;
+}
+
+/* .PaymentformHeading {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: rgb(131, 185, 58);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  border: 2px solid rgb(131, 185, 58);
+  text-align: center;
+} */
+
+.continueShopping {
+  display: flex;
+  justify-content: flex-end;
+}
+.continueShopping button {
+  background: rgb(131, 185, 58);
+  border: solid 1px rgb(131, 185, 58);
+  color: #fff;
+}
+.continueShopping button:hover,
+.continueShopping button:focus {
+  color: #fff;
+}
+
+.paymentDescription {
+  background-color: rgba(130, 185, 58, 0.959);
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .checkout {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,35 @@
+.checkout {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.checkoutHeader {
+  font-weight: 700;
+  margin: 25px 0 5px;
+  border-bottom: 3px solid rgb(131, 185, 58);
+  padding: 0 0 25px;
+}
+.checkoutHeader span {
+  font-size: 20px;
+  color: #fff;
+  background: rgb(131, 185, 58);
+  padding: 8px 15px 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.continueShopping {
+  /* margin-top: 25px;
+  margin-bottom: 10px; */
+  display: flex;
+  justify-content: flex-end;
+}
+.continueShopping button {
+  background: rgb(131, 185, 58);
+  border: solid 1px rgb(131, 185, 58);
+  color: #fff;
+}
+.continueShopping button:hover,
+.continueShopping button:focus {
+  color: #fff;
+}

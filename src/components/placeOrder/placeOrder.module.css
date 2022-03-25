@@ -1,0 +1,54 @@
+.checkout {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.checkoutHeader {
+  font-weight: 700;
+  margin: 25px 0 5px;
+  border-bottom: 3px solid rgb(131, 185, 58);
+  padding: 0 0 25px;
+}
+.checkoutHeader span {
+  font-size: 20px;
+  color: #fff;
+  background: rgb(131, 185, 58);
+  padding: 8px 15px 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: rgb(96, 151, 23);
+}
+
+.continueShopping {
+  /* margin-top: 25px; */
+  /* margin-bottom: 10px; */
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.continueShopping button {
+  background: rgb(131, 185, 58);
+  border: solid 1px rgb(131, 185, 58);
+  color: #fff;
+}
+.continueShopping button:hover,
+.continueShopping button:focus {
+  color: #fff;
+}
+@media screen and (max-width: 410px) {
+  .checkoutHeader span {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 310px) {
+  .checkoutHeader {
+    /* text-align: center; */
+  }
+  .checkoutHeader span {
+    font-size: 12px;
+  }
+}

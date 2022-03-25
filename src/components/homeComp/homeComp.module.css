@@ -1,0 +1,999 @@
+.homeContent {
+  /* margin-top: 40px; */
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Nexa", sans-serif;
+}
+.banner {
+  width: 100%;
+  padding-top: 50px;
+  height: 600px;
+  background: linear-gradient(0.25turn, #15384c, #135a86, #15384c);
+}
+.sideEffectBanner {
+  background-image: url("../../assets/images/sideEffectBanner.png");
+  height: 320px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.sideEffectBannerInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: flex-start;
+  padding-left: 86px;
+}
+.buyBanner {
+  /* margin-top: 100px; */
+  background-image: url("../../assets/images/Layer 2.png");
+  height: 320px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.benefitsBanner {
+  background-image: url("../../assets/images/Background.png");
+  height: 320px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.sideEffectBannerFirstHeading {
+  font-size: 60px;
+  color: #153f58;
+  font-weight: 900;
+  margin-bottom: 0rem;
+}
+.sideEffectBannerSecondHeading {
+  font-size: 60px;
+  color: #8cc63e;
+  font-weight: 900;
+  margin-bottom: 0rem;
+}
+.bannerInner {
+  background-image: url("../../assets/images/bannerback.png");
+  height: 550px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 60% 0px;
+}
+.bannerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 50px 25px;
+}
+.bannerleftHeader {
+  font-size: 80px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+.bannerLeftList {
+  color: #fff;
+  list-style: none;
+  font-size: 25px;
+  margin-bottom: 110px;
+}
+.accept {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.accept h5 {
+  font-size: 35px;
+  margin-top: 3px;
+  color: #fff;
+  margin-right: 35px;
+  margin-bottom: 0rem;
+}
+.accept img {
+  margin-right: 7px;
+}
+.bitcoin {
+  width: 40px;
+}
+.visa {
+  width: 80px;
+}
+.masCard {
+  width: 63px;
+}
+.bankTransfer {
+  width: 63px;
+}
+.bannerLeftList li {
+  position: relative;
+  margin-bottom: 2px;
+}
+.bannerLeftList li::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../assets/icons/bannerIcon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  left: -27px;
+  top: 6px;
+}
+.bannerleftSubHeader {
+  font-size: 67px;
+  color: #fff;
+}
+.bannerleftSubHeader span {
+  color: #8cc63e;
+}
+.bannerRightContent {
+  margin-left: 10px;
+}
+.bannerRightContent h1 {
+  font-size: 110px;
+  font-weight: bold;
+  color: #fff;
+}
+.bannerRightSubHeader {
+  font-size: 40px;
+  color: #fff;
+}
+.bannerRightSubHeader span {
+  font-size: 44px;
+  color: #8cc63e;
+  font-weight: 900;
+}
+.bannerRightPara {
+  background-color: #8cc63e;
+  color: #fff;
+  font-size: 24px;
+  padding: 2px 20px;
+  border-radius: 40px;
+  font-weight: 700;
+  margin-top: -26px;
+}
+.dPartner {
+  margin-top: 50px;
+}
+.dPartner h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+}
+.dPartner span {
+  font-weight: 300;
+  font-size: 28px;
+}
+.postImg {
+  width: 80px;
+  margin-right: 3px;
+}
+.dhlImg {
+  width: 140px;
+}
+.headsWrap {
+  display: flex;
+}
+.homeContentInner {
+  padding: 0 10px;
+}
+.homeContentInner h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #16374b;
+  margin: 25px 0 5px;
+}
+.homeContentInner p {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  padding: 0 !important;
+  margin: 0 0 25px !important;
+}
+.hist {
+  padding: 15px 10px;
+}
+.hist h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #16374b;
+  margin: 25px 0 5px;
+}
+.hist p {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  padding: 0 !important;
+  margin: 0 0 25px !important;
+}
+.hist h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #eb2026;
+  margin: 20px 0 5px;
+}
+.structImg {
+  height: auto;
+  max-height: 300px;
+  width: 90%;
+  text-align: center;
+}
+.structFormula {
+  margin: 15px 0;
+}
+.structFormula h4 {
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 15px 0 4px !important;
+}
+.structFormula span,
+.structFormula sub {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  padding: 0 !important;
+  margin: 0 0 10px !important;
+}
+.subHeadWrap {
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
+  margin-bottom: 10px;
+}
+.highlight {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  padding: 30px;
+}
+.props {
+}
+.props h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #16374b;
+  margin: 14px 0 16px;
+}
+.subHead {
+  color: #16374b;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 14px 0 4px !important;
+}
+.subHeadContent {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  padding: 0 0 10px !important;
+  margin: 0 0 0 0 !important;
+}
+/* Benefits Section*/
+
+/* .benefitsInner {
+  display: table;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/images/benefits.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  color: white;
+  background-attachment: fixed;
+} */
+.benefits {
+  padding: 15px 10px;
+}
+/* .benefitsWrapper {
+  display: flex;
+} */
+/* .benefitsLeftImg {
+  width: 45%;
+} */
+.benefitsLeftImg img {
+  max-width: 100%;
+  height: 94%;
+  margin-top: 10px;
+}
+/* .benefitsRightContent {
+  width: 53%;
+} */
+.benefits h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #16374b;
+  margin: 25px 0 5px;
+}
+.benefits h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #16374b;
+  margin: 20px 0 5px;
+}
+.benefits p {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  padding: 0 !important;
+  margin: 0 0 30px !important;
+}
+.list {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  margin: 0 0 10px !important;
+  list-style-type: circle;
+}
+.imgList {
+  list-style: none;
+  padding: 0 !important;
+  font-size: 16px;
+  color: #ff2b2b;
+  font-style: italic;
+}
+@media screen and (max-width: 1440px) {
+  .banner {
+    height: 570px;
+  }
+  .bannerInner {
+    height: 100%;
+  }
+  .benefitsBanner {
+    height: 300px;
+  }
+  .sideEffectBannerFirstHeading {
+    font-size: 50px;
+  }
+  .sideEffectBannerSecondHeading {
+    font-size: 50px;
+  }
+  .buyBanner {
+    height: 271px;
+  }
+  .sideEffectBanner {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .benefitsBanner {
+    height: 270px;
+  }
+  .banner {
+    height: 500px;
+  }
+  .bannerInner {
+    height: 100%;
+  }
+  .bannerleftHeader {
+    font-size: 65px;
+  }
+  .bannerleftSubHeader {
+    font-size: 50px;
+  }
+  .bannerLeftList {
+    font-size: 22px;
+    margin-bottom: 70px;
+  }
+  /* .bannerRightContent h1 {
+    font-size: 90px;
+  }
+  .bannerRightSubHeader {
+    font-size: 33px;
+    margin-left: 20px;
+  } */
+}
+@media screen and (max-width: 1100px) {
+  .benefitsBanner {
+    height: 244px;
+  }
+  .sideEffectBannerFirstHeading {
+    font-size: 45px;
+  }
+  .sideEffectBannerSecondHeading {
+    font-size: 45px;
+  }
+  .sideEffectBanner {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .banner {
+    height: 470px;
+  }
+  .bannerInner {
+    height: 90%;
+    background-position: 58% 0px;
+  }
+  .bannerWrapper {
+    padding: 22px 40px 25px;
+  }
+  .bannerleftHeader {
+    font-size: 65px;
+  }
+  .bannerleftSubHeader {
+    font-size: 50px;
+  }
+  .bannerLeftList {
+    font-size: 22px;
+    margin-bottom: 70px;
+  }
+  .bitcoin {
+    width: 30px;
+  }
+  .visa {
+    width: 60px;
+  }
+  .masCard {
+    width: 53px;
+  }
+  .bankTransfer {
+    width: 47px;
+  }
+  .bannerRightContent h1 {
+    font-size: 90px;
+  }
+  .bannerRightSubHeader {
+    font-size: 33px;
+    margin-left: 20px;
+  }
+  .bannerRightPara {
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .banner {
+    height: 470px;
+  }
+  .buyBanner {
+    height: 205px;
+    background-size: contain;
+  }
+  .sideEffectBanner {
+    height: 205px;
+    background-size: contain;
+  }
+  .bannerInner {
+    height: 90%;
+    background-position: 58% 0px;
+  }
+  .bannerWrapper {
+    padding: 22px 20px 25px;
+  }
+  .bannerleftHeader {
+    font-size: 65px;
+  }
+  .bannerleftSubHeader {
+    font-size: 50px;
+  }
+  .bannerLeftList {
+    font-size: 22px;
+    margin-bottom: 96px;
+  }
+  .bitcoin {
+    width: 30px;
+  }
+  .visa {
+    width: 60px;
+  }
+  .masCard {
+    width: 53px;
+  }
+  .bankTransfer {
+    width: 47px;
+  }
+  .bannerRightContent h1 {
+    font-size: 80px;
+  }
+  .bannerRightSubHeader {
+    font-size: 29px;
+    margin-left: 20px;
+  }
+  .bannerRightPara {
+    font-size: 19px;
+    padding: 3px 20px 2px 20px;
+  }
+  .accept h5 {
+    font-size: 29px;
+    margin-right: 18px;
+  }
+  .sideEffectBannerFirstHeading {
+    font-size: 40px;
+  }
+  .sideEffectBannerSecondHeading {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .banner {
+    height: 470px;
+  }
+
+  .benefitsBanner {
+    height: 197px;
+  }
+  .bannerInner {
+    height: 90%;
+    background-position: 58% 0px;
+  }
+  .bannerWrapper {
+    padding: 55px 20px 25px;
+  }
+  .bannerleftHeader {
+    font-size: 50px;
+  }
+  .bannerleftSubHeader {
+    font-size: 35px;
+  }
+  .bannerLeftList {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 96px;
+  }
+  .bitcoin {
+    width: 25px;
+  }
+  .visa {
+    width: 48px;
+  }
+  .masCard {
+    width: 44px;
+  }
+  .bankTransfer {
+    width: 37px;
+  }
+  .bannerRightContent h1 {
+    font-size: 60px;
+    margin-left: 10px;
+  }
+  .bannerRightSubHeader {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .bannerRightSubHeader span {
+    font-size: 25px;
+  }
+  .bannerRightPara {
+    font-size: 16px;
+    padding: 4px 10px 2px 10px;
+    margin-top: -15px;
+    width: 90%;
+  }
+  .accept h5 {
+    font-size: 24px;
+    margin-right: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner {
+    height: 350px;
+    padding-top: 55px;
+  }
+  .sideEffectBannerFirstHeading {
+    font-size: 28px;
+  }
+  .sideEffectBanner {
+    height: 145px;
+    background-size: contain;
+  }
+  .buyBanner {
+    height: 145px;
+    background-size: contain;
+  }
+  .sideEffectBannerSecondHeading {
+    font-size: 28px;
+  }
+  .benefitsBanner {
+    background-size: contain;
+    height: 136px;
+  }
+  .sideEffectBannerInner {
+    padding-left: 34px;
+  }
+  .bannerInner {
+    height: 80%;
+    background-position: 56% 0px;
+  }
+  .bannerWrapper {
+    padding: 0px 20px 25px;
+  }
+  .bannerleftHeader {
+    font-size: 40px;
+  }
+  .bannerleftSubHeader {
+    font-size: 25px;
+  }
+  .bannerLeftList {
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 71px;
+    padding-left: 1rem;
+  }
+  .bannerLeftList li:before {
+    width: 10px;
+    height: 10px;
+    top: 3px;
+    left: -16px;
+  }
+  .headsWrap {
+    justify-content: center;
+  }
+  .bitcoin {
+    width: 25px;
+  }
+  .visa {
+    width: 48px;
+  }
+  .masCard {
+    width: 44px;
+  }
+  .bankTransfer {
+    width: 37px;
+  }
+  .bannerRightContent h1 {
+    font-size: 60px;
+    margin-left: 10px;
+  }
+  .bannerRightSubHeader {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .bannerRightSubHeader span {
+    font-size: 25px;
+  }
+  .bannerRightPara {
+    font-size: 13px;
+    padding: 4px 10px 2px 10px;
+    margin: -15px auto 0;
+    width: 96%;
+  }
+  .accept h5 {
+    font-size: 24px;
+    margin-right: 18px;
+  }
+  .dPartner h3 {
+    font-size: 24px;
+  }
+  .dPartner span {
+    font-size: 20px;
+  }
+  .postImg {
+    width: 60px;
+  }
+  .dhlImg {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .banner {
+    height: 300px;
+    padding-top: 40px;
+  }
+  .bannerInner {
+    height: 80%;
+    background-position: 58% 0px;
+  }
+  .bannerWrapper {
+    padding: 0px 20px 25px;
+  }
+  .bannerleftHeader {
+    font-size: 33px;
+  }
+  .bannerleftSubHeader {
+    font-size: 20px;
+  }
+  .bannerLeftList {
+    margin-top: 20px;
+    font-size: 12px;
+    margin-bottom: 71px;
+    padding-left: 1rem;
+  }
+  .bannerLeftList li:before {
+    width: 10px;
+    height: 10px;
+    top: 3px;
+    left: -16px;
+  }
+  .headsWrap {
+    justify-content: center;
+  }
+  .accept img {
+    margin-right: 2px;
+  }
+  .bitcoin {
+    width: 18px;
+  }
+  .visa {
+    width: 37px;
+  }
+  .masCard {
+    width: 32px;
+  }
+  .bankTransfer {
+    width: 28px;
+  }
+  .bannerRightContent h1 {
+    font-size: 45px;
+    margin-left: 10px;
+  }
+  .bannerRightSubHeader {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .bannerRightSubHeader span {
+    font-size: 20px;
+  }
+  .bannerRightPara {
+    font-size: 10px;
+    padding: 5px 10px 2px 10px;
+    margin: -15px auto 0;
+    width: 96%;
+  }
+  .accept h5 {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .dPartner h3 {
+    font-size: 18px;
+  }
+  .dPartner span {
+    font-size: 15px;
+  }
+  .postImg {
+    width: 50px;
+  }
+  .dhlImg {
+    width: 80px;
+  }
+  .buyBanner {
+    height: 150px;
+    background-size: contain;
+  }
+  .sideEffectBanner {
+    height: 150px;
+    background-size: contain;
+  }
+  .sideEffectBannerFirstHeading {
+    font-size: 30px;
+  }
+  .sideEffectBannerSecondHeading {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .buyBanner {
+    height: 170px;
+    width: 100%;
+    background-size: 100% 158px;
+  }
+  .sideEffectBanner {
+    height: 170px;
+    width: 100%;
+    background-size: 100% 158px;
+  }
+  .banner {
+    height: 268px;
+    padding-top: 40px;
+  }
+  .bannerInner {
+    height: 80%;
+    background-position: 58% 0px;
+  }
+  .benefitsBanner {
+    height: 170px;
+    width: 100%;
+    background-size: 100% 158px;
+  }
+  .bannerWrapper {
+    padding: 0px 9px 25px;
+  }
+  .bannerleftHeader {
+    font-size: 28px;
+  }
+  .bannerleftSubHeader {
+    font-size: 17px;
+  }
+  .bannerLeftList {
+    margin-top: 20px;
+    font-size: 11px;
+    margin-bottom: 57px;
+    padding-left: 1rem;
+  }
+  .bannerLeftList li:before {
+    width: 10px;
+    height: 10px;
+    top: 3px;
+    left: -16px;
+  }
+  .headsWrap {
+    justify-content: center;
+  }
+  .accept img {
+    margin-right: 2px;
+  }
+  .bitcoin {
+    width: 18px;
+  }
+  .visa {
+    width: 37px;
+  }
+  .masCard {
+    width: 32px;
+  }
+  .bankTransfer {
+    width: 28px;
+  }
+  .bannerRightContent h1 {
+    font-size: 35px;
+    margin-left: 0px;
+  }
+  .bannerRightSubHeader {
+    font-size: 16px;
+    margin-left: 14px;
+  }
+  .bannerRightSubHeader span {
+    font-size: 16px;
+  }
+  .bannerRightPara {
+    font-size: 9px;
+    padding: 5px 10px 2px 10px;
+    margin: -9px auto 0;
+    width: 100%;
+  }
+  .accept h5 {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .dPartner h3 {
+    font-size: 14px;
+  }
+  .dPartner span {
+    font-size: 13px;
+  }
+  .postImg {
+    width: 40px;
+  }
+  .dhlImg {
+    width: 63px;
+  }
+  .sideEffectBannerFirstHeading {
+    font-size: 25px;
+  }
+  .sideEffectBannerSecondHeading {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .banner {
+    height: 230px;
+    padding-top: 19px;
+  }
+  .buyBanner {
+    height: 124px;
+    width: 100%;
+    background-size: 106% 124px;
+  }
+  .sideEffectBannerInner {
+    padding-left: 14px;
+  }
+  .sideEffectBanner {
+    height: 124px;
+    width: 100%;
+    background-size: 106% 124px;
+  }
+  .benefitsBanner {
+    height: 135px;
+    width: 100%;
+    background-size: 106% 124px;
+  }
+  .bannerInner {
+    height: 80%;
+    background-position: 55% 0px;
+  }
+  .bannerWrapper {
+    padding: 0px 9px 25px;
+  }
+  .bannerleftHeader {
+    font-size: 28px;
+  }
+  .bannerleftSubHeader {
+    font-size: 17px;
+  }
+  .bannerLeftList {
+    margin-top: 20px;
+    font-size: 11px;
+    margin-bottom: 57px;
+    padding-left: 1rem;
+  }
+  .bannerLeftList li:before {
+    width: 10px;
+    height: 10px;
+    top: 3px;
+    left: -16px;
+  }
+  .headsWrap {
+    justify-content: center;
+  }
+  .accept img {
+    margin-right: 2px;
+  }
+  .bitcoin {
+    width: 18px;
+  }
+  .visa {
+    width: 37px;
+  }
+  .masCard {
+    width: 32px;
+  }
+  .bankTransfer {
+    width: 28px;
+  }
+  .bannerRightContent h1 {
+    font-size: 35px;
+    margin-left: 0px;
+  }
+  .bannerRightSubHeader {
+    font-size: 16px;
+    margin-left: 14px;
+  }
+  .bannerRightSubHeader span {
+    font-size: 16px;
+  }
+  .bannerRightPara {
+    font-size: 9px;
+    padding: 5px 10px 2px 10px;
+    margin: -9px auto 0;
+    width: 100%;
+  }
+  .accept h5 {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .dPartner h3 {
+    font-size: 14px;
+  }
+  .dPartner span {
+    font-size: 13px;
+  }
+  .postImg {
+    width: 40px;
+  }
+  .dhlImg {
+    width: 63px;
+  }
+  .sideEffectBannerFirstHeading {
+    font-size: 20px;
+  }
+  .sideEffectBannerSecondHeading {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .bitcoin {
+    width: 15px;
+  }
+  .visa {
+    width: 32px;
+  }
+  .masCard {
+    width: 28px;
+  }
+  .bankTransfer {
+    width: 24px;
+  }
+  .bannerRightPara {
+    font-size: 9px;
+    padding: 3px 2px 0px 9px;
+    margin: -9px auto 0;
+    width: 105%;
+  }
+}

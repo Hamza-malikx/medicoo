@@ -1,0 +1,46 @@
+.aboutUsInner {
+  font-family: "Nexa", sans-serif;
+}
+.aboutUsInner h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #16374b;
+  margin: 25px 0 5px;
+}
+.aboutUsInner span {
+  color: #8cc63e;
+}
+.aboutUsInner p {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  padding: 0 !important;
+  margin: 0 0 25px !important;
+}
+.aboutUsInner h3 {
+  font-size: 24px;
+  color: #16374b;
+  margin: 15px 0 0px;
+}
+.aboutUsInner h4 {
+  font-size: 20px;
+  color: #16374b;
+  margin: 15px 0 5px;
+}
+@media screen and (max-width: 600px) {
+  .aboutUsInner {
+    padding: 0 17px;
+  }
+  .aboutUsInner h2 {
+    font-size: 22px;
+  }
+  .aboutUsInner p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 350px) {
+  /* .aboutUsInner {
+    padding: 0 12px;
+  } */
+}

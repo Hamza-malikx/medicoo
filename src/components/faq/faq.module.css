@@ -1,0 +1,53 @@
+.faqInner {
+  font-family: "Nexa", sans-serif;
+}
+.faqInner h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 25px 0 15px;
+  /* color: #8cc63e; */
+  color: #16374b;
+  text-decoration: underline;
+  text-align: center;
+}
+.faqInner h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 45px 0 15px;
+  /* color: #8cc63e; */
+  color: #16374b;
+  text-decoration: underline;
+  text-align: center;
+}
+.faqInner h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #16374b;
+
+  margin: 10px 0 5px;
+}
+.faqInner p {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  padding: 0 !important;
+  margin: 0 0 25px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .mainDiv {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .faqInner h2 {
+    font-size: 22px;
+  }
+  .faqInner h1 {
+    font-size: 24px;
+  }
+  .faqInner p {
+    font-size: 14px;
+  }
+}

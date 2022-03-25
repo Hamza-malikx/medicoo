@@ -1,0 +1,61 @@
+.categ {
+  font-family: "Nexa", sans-serif;
+}
+.categInnerHeader {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 25px 0 15px;
+  color: #16374b;
+}
+.categInnerPara {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  padding: 0 !important;
+  margin: 0 0 17px !important;
+}
+.categInnerParaUl {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  padding: 0 !important;
+  margin: 0 0 10px !important;
+}
+.categInner ul {
+  list-style-type: circle;
+}
+.categInnerLets {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  padding: 0 !important;
+  margin: 0 0 10px !important;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+  .categ {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .categInner {
+    padding: 0 17px;
+  }
+  .categInnerHeader {
+    margin: 20px 0 10px;
+    font-size: 22px;
+  }
+  .categInnerPara {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .refundPolicyInner {
+    padding: 0 12px;
+  }
+}

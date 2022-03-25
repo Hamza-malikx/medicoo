@@ -1,0 +1,50 @@
+.shippingInner {
+  font-family: "Nexa", sans-serif;
+}
+.shippingInner h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 25px 0 15px;
+  color: #16374b;
+}
+.shippingInner p {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  padding: 0 !important;
+  margin: 0 0 25px !important;
+}
+.shippingInner h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #16374b;
+  margin: 10px 0 5px;
+}
+.shippingInner h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 45px 0 15px;
+  color: #16374b;
+  text-decoration: underline;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .shippingInner {
+    padding: 0 17px;
+  }
+  .shippingInner h3 {
+    font-size: 19px;
+  }
+  .shippingInner h1 {
+    font-size: 22px;
+  }
+  .shippingInner p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .privacyPolicyInner {
+    padding: 0 12px;
+  }
+}

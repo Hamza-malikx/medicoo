@@ -1,0 +1,40 @@
+.privacyPolicyInner {
+  font-family: "Nexa", sans-serif;
+}
+.privacyPolicyInner h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 25px 0 15px;
+  /* color: #8cc63e; */
+  color: #16374b;
+}
+.privacyPolicyInner p {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  padding: 0 !important;
+  margin: 0 0 25px !important;
+}
+.privacyPolicyInner h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #16374b;
+  margin: 10px 0 5px;
+}
+@media screen and (max-width: 600px) {
+  .privacyPolicyInner {
+    padding: 0 17px;
+  }
+  .privacyPolicyInner h2 {
+    font-size: 22px;
+  }
+  .privacyPolicyInner p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .privacyPolicyInner {
+    padding: 0 12px;
+  }
+}
