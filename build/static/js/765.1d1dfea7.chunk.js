@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmedico=self.webpackChunkmedico||[]).push([[765],{4214:function(e,n,c){c.r(n);c(2791);var s=c(4009),t=c(2175),i=c(5588),r=c(184);n.default=function(){return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.Z,{}),(0,r.jsx)("div",{style:{textAlign:"center"},children:(0,r.jsx)("img",{src:i,alt:"",className:"errorImg"})}),(0,r.jsx)(s.Z,{})]})}},5588:function(e,n,c){e.exports=c.p+"static/media/pngfind.com-404-png-6375883.038f38b59db33d5ddacc.png"}}]);
+//# sourceMappingURL=765.1d1dfea7.chunk.js.map

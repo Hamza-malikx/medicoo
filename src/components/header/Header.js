@@ -275,7 +275,7 @@ const Header = () => {
                             variant="success"
                             id="dropdown-basic"
                           >
-                            <Link to="/smart-pills"> NOOTROPICS</Link>
+                            <Link to="/nootropics"> NOOTROPICS</Link>
                           </Dropdown.Toggle>
 
                           <Dropdown.Menu>
